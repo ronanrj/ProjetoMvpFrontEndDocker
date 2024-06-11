@@ -2,6 +2,9 @@
 Projeto FrontEnd MVP - Cadastro de auto escolas com consumo de API
 Objetivo - realizar a conexão Rest com a api de back-end -  o ambiente pode ser local ou contenerizado.
 
+O objetivo do projeto é um cadastro simples de auto escolas com relacionamento de carros e instrutores em uma base de dados sqlite e a contenerização utilizando docker.
+A Api backend , quando solicitada pelos metodos POST e PUT , realiza uma conexão http-get , passando um cep válido, para a API externa ViaCEP (https://viacep.com.br/) , retornando o endereço completo e atualizando no banco de dados sqlite.
+
 
 ![image](https://github.com/ronanrj/ProjetoMvpFrontEndDocker/assets/20301129/64958347-1709-40d0-8e0a-896269530f83)
 
