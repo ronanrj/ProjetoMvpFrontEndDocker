@@ -1,5 +1,11 @@
-# ProjetoMvpFrontEnd
+# ProjetoMvpFrontEndDocker
 Projeto FrontEnd MVP - Cadastro de auto escolas com consumo de API
+Objetivo - realizar a conexão Rest com a api de back-end -  o ambiente pode ser local ou contenerizado.
+
+
+![image](https://github.com/ronanrj/ProjetoMvpFrontEndDocker/assets/20301129/050f977e-87b3-422c-bd50-120a507a794b)
+
+
 
 ## Como executar
 
