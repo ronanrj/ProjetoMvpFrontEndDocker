@@ -43,7 +43,8 @@ URL: viacep.com.br/ws/01001000/json/
 
 ## Como executar
 
-Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
+Basta fazer o download do projeto e abrir o arquivo index.html no seu browser. 
+É necessário para a integração que a Api backend esteja funcionando.
 
 ---
 ## Como executar através do Docker
