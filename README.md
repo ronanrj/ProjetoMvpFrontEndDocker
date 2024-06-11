@@ -6,6 +6,35 @@ O objetivo do projeto é um cadastro simples de auto escolas com relacionamento 
 A Api backend , quando solicitada pelos metodos POST e PUT , realiza uma conexão http-get , passando um cep válido, para a API externa ViaCEP (https://viacep.com.br/) , retornando o endereço completo e atualizando no banco de dados sqlite.
 Pode se ver a cadastro / alteração pelo backend no CFC metodos GET - /cfc/{codigo} 
 
+Foi utilizado o viaCEP da seguinte forma.
+
+Acessando o webservice de CEP
+
+Para acessar o webservice, um CEP no formato de {8} dígitos deve ser fornecido, exemplo: "01001000".
+Após o CEP, deve ser fornecido o tipo de retorno desejado, que deve ser "json" ou "xml".
+
+Exemplo de consulta de CEP:
+viacep.com.br/ws/01001000/json/ 
+
+o retorno utilizado foi um json com formato:
+
+JSON
+URL: viacep.com.br/ws/01001000/json/
+
+
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
+
 
 ![image](https://github.com/ronanrj/ProjetoMvpFrontEndDocker/assets/20301129/64958347-1709-40d0-8e0a-896269530f83)
 
